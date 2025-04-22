@@ -1,0 +1,29 @@
+.users{
+    background-color: whitesmoke;
+    padding: 2rem;
+    height: 30rem;
+    overflow-y: auto;
+    border-radius: 0 0 40px  40px;
+}
+nav{
+    color: white !important;
+}
+li{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+}
+.card-title{
+    text-transform: capitalize !important;
+}
+img{
+    border:50% !important;
+    width: 6rem !important;
+    margin-top: 20px !important;
+}
+
+@media (max-width: 1115px) {
+    .card{
+        margin: 20px auto !important;
+    }
+}
